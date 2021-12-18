@@ -1,7 +1,28 @@
 .App {
   text-align: center;
 }
-
+.nav-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #595045;
+  color: #0D0B07;
+  background-image: url("./foxhole-logi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar {
+  display: flex;
+  padding: 300px;
+}
+.enter-btn {
+  width: 10rem;
+  height: 3rem;
+  font-weight: bolder;
+  font-size: 25px;
+  transform: translateY(50px);
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
